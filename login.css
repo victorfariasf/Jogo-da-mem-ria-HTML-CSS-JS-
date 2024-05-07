@@ -1,0 +1,95 @@
+@import url('https://fonts.cdnfonts.com/css/metal-gear-solid');
+@import url('https://fonts.cdnfonts.com/css/cmu-typewriter-text');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Espionage', sans-serif ;  
+    
+}
+
+body{
+    background-image: url('./imagens/loginWallpaper.jpg');
+    background-size: cover;
+}
+
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 100px auto;
+    width: 700px;
+    height: 400px;
+    justify-content: center;
+    background-color: #00000068;
+    border: 2px solid black;
+    
+}
+
+.login-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.login-header h1{
+    color: rgb(247, 247, 247);
+    font-family: 'Espionage', sans-serif;
+    margin-right: 230px;
+    width: 400px;
+    margin-bottom: 300px;
+    position: absolute;
+}
+
+.login-header img{
+    width: 200px;
+    margin-right: 100px;
+}
+
+#inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.login-input{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: 2px solid black;
+    border-radius: 0%;
+    height: 30px;
+    width: 150px;
+    color: white;
+
+    font-family: 'CMU Typewriter Text', sans-serif;
+    font-size: 22px;
+}
+
+
+.button-input{
+    border-radius: 5px;
+    margin-top: 20px;
+    border: 1px solid black;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: .3s;
+
+}
+
+.button-input:disabled{
+    background-color: #575757;
+    border: 0;
+    color: #272727;
+    cursor: auto;
+    transition: .3s;
+}
+
+
